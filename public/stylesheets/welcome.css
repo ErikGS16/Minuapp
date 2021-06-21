@@ -1,0 +1,21 @@
+body{
+    background-color: 2BC20C;
+}
+
+#gridContainer{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+#loginContainer{
+    width: 100%;
+    align-content: center;
+}
+#loginBox{
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+}
