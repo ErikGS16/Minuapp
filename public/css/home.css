@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css2?family=Baloo+2&family=Boogaloo&family=Josefin+Sans:ital@1&display=swap);
+@font-face {
+  font-family: logoWhite;
+  src: url("/fonts/JFRocOut.eot") format("opentype");
+}
+@font-face {
+  font-family: logoBlack;
+  src: url("/fonts/JFRocSol.TTF") format("truetype");
+}
+@font-face {
+  font-family: titleFont;
+  src: url("/fonts/Boogaloo.ttf") format("truetype");
+}
+@font-face {
+  font-family: textFont;
+  src: url("/fonts/Baloo2.ttf") format("truetype");
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}

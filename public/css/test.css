@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css2?family=Baloo+2&family=Boogaloo&family=Josefin+Sans:ital@1&display=swap);
+@font-face {
+  font-family: logoWhite;
+  src: url("/fonts/JFRocOut.eot") format("opentype");
+}
+@font-face {
+  font-family: logoBlack;
+  src: url("/fonts/JFRocSol.TTF") format("truetype");
+}
+@font-face {
+  font-family: titleFont;
+  src: url("/fonts/Boogaloo.ttf") format("truetype");
+}
+@font-face {
+  font-family: textFont;
+  src: url("/fonts/Baloo2.ttf") format("truetype");
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  overflow: hidden;
+}
+
+#navbar {
+  height: 65px;
+  width: 100%;
+  background-color: #333333;
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  position: static;
+}
+
+#logo {
+  font-family: "Baloo 2", cursive;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: text-top;
+  color: white;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#pageBody {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-image: url("/images/Minulogo.png");
+  background-size: 100%;
+}
+
+#pageCenter {
+  background-color: rgba(245, 245, 245, 0.3);
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  width: auto;
+}
+
+.pageSeparator {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: auto;
+}
+
+#container {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr;
+  padding-left: -250px;
+}
+
+#header {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+#intro {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+#loginDiv {
+  align-content: center;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+#labelCorreu {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+}
+
+#inputCorreu {
+  width: 30vh;
+}
+
+#labelContrasenya {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Boogaloo&family=Josefin+Sans:ital@1&display=swap');
+
+$primaryGreen: #1e8b22;
+$secondaryGreen: #0dee15;
+$primaryRed: #962525;
+$secondaryRed: #f50404;
+$primaryGray: #333333;
+$White: #ffffff;
+
+
+$okGreen: #0dee15;
+$errorRed: #f50404;
+$alertYellow: #fffb00;
+$hintBlue: #0064e7;
+
+$whiteText: #ffffff;
+$blackText: #000000;
+
+
+@font-face {
+        font-family: logoWhite;
+        src: url('/fonts/JFRocOut.eot') format('opentype');
+};
+        
+@font-face {
+        font-family: logoBlack;
+        src: url('/fonts/JFRocSol.TTF') format('truetype');
+};
+        
+@font-face {
+        font-family: titleFont;
+        src: url('/fonts/Boogaloo.ttf') format('truetype');
+};
+        
+@font-face {
+        font-family: textFont;
+        src: url('/fonts/Baloo2.ttf') format('truetype');
+};
+
+
+@mixin reset {
+        margin: 0px;
+        padding: 0px;
+}
+
+@mixin sidebarButton{
+        width: 100%;
+        height: 50px;
+        color: white;
+        background-color: $primaryGreen;
+        border: none;
+        transition: 0.3s;
+        cursor: pointer;
+}

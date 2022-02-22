@@ -1,0 +1,61 @@
+@import '../main.scss';
+
+body{
+        @include reset;
+        overflow: hidden;
+}
+
+.header{
+        width: 100%;
+        height: 60px;
+        background-color: $primaryGray;
+        position: fixed;
+        cursor: default;
+        user-select: none;
+        top: 0;
+        left: 0;
+        display: block;
+        z-index: -1;
+}
+
+#title{
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 12px;
+}
+
+#sidebarAndContentContainer{
+        display: grid;
+        grid-template-columns: 25% auto;
+        height: 100%;
+        margin-top: 60px;
+}
+
+#sidebar{
+        background-color: $primaryGray;
+        height: 100%;
+        left: 100;
+}
+
+.sidebarButton{
+        @include sidebarButton;
+        text-align: left;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 30px;
+        padding-left: 15px;
+        letter-spacing: 2px;
+}
+
+.sidebarButton:hover{
+        background-color: $secondaryGreen;
+}
+
+#logOutButton{
+        background-color: $primaryRed;
+}
+
+#logOutButton:hover{
+        background-color: $secondaryRed;
+}

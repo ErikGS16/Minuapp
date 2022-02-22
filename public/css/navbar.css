@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css2?family=Baloo+2&family=Boogaloo&family=Josefin+Sans:ital@1&display=swap);
+@font-face {
+  font-family: logoWhite;
+  src: url("/fonts/JFRocOut.eot") format("opentype");
+}
+@font-face {
+  font-family: logoBlack;
+  src: url("/fonts/JFRocSol.TTF") format("truetype");
+}
+@font-face {
+  font-family: titleFont;
+  src: url("/fonts/Boogaloo.ttf") format("truetype");
+}
+@font-face {
+  font-family: textFont;
+  src: url("/fonts/Baloo2.ttf") format("truetype");
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar {
+  height: 65px;
+  width: 100%;
+  background-color: #333333;
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  position: inherit;
+}
+
+#logo {
+  font-family: "Baloo 2", cursive;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: text-top;
+  color: white;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-right: -200px;
+}
+
+#pageBody {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-image: url("/images/Minulogo.png");
+  background-size: 100%;
+}
+
+#pageCenter {
+  border: 2px solid black;
+  background-color: rgba(245, 245, 245, 0.3);
+}
+
+.pageSeparator {
+  height: auto;
+  width: auto;
+}
+
+#container {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr;
+}

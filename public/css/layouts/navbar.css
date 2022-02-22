@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css2?family=Baloo+2&family=Boogaloo&family=Josefin+Sans:ital@1&display=swap);
+@font-face {
+  font-family: logoWhite;
+  src: url("/fonts/JFRocOut.eot") format("opentype");
+}
+@font-face {
+  font-family: logoBlack;
+  src: url("/fonts/JFRocSol.TTF") format("truetype");
+}
+@font-face {
+  font-family: titleFont;
+  src: url("/fonts/Boogaloo.ttf") format("truetype");
+}
+@font-face {
+  font-family: textFont;
+  src: url("/fonts/Baloo2.ttf") format("truetype");
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #333333;
+  position: fixed;
+  cursor: default;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: -1;
+}
+
+#title {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 12px;
+}
+
+#sidebarAndContentContainer {
+  display: grid;
+  grid-template-columns: 25% auto;
+  height: 100%;
+  margin-top: 60px;
+}
+
+#sidebar {
+  background-color: #333333;
+  height: 100%;
+  left: 100;
+}
+
+.sidebarButton {
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: #1e8b22;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+  text-align: left;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  padding-left: 15px;
+  letter-spacing: 2px;
+}
+
+.sidebarButton:hover {
+  background-color: #0dee15;
+}
+
+#logOutButton {
+  background-color: #962525;
+}
+
+#logOutButton:hover {
+  background-color: #f50404;
+}
